@@ -1,10 +1,5 @@
 import { Component } from '@angular/core';
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
-})
-export class AppComponent {
-  title = 'practice-rxjs';
-}
+// tslint:disable-next-line: component-selector
+@Component({ selector: 'app', templateUrl: 'app.component.html' })
+export class AppComponent { }
